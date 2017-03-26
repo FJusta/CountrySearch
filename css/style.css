@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin');
+
+* {
+    box-sizing: border-box;
+}
+body {
+    background: lightgray;
+    text-align: center;
+    font-family: 'Libre Franklin', sans-serif;
+    background-image: url('../images/tło.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+.flag {
+    max-width: 200px;
+    max-height: 200px;
+    box-shadow: 0 5px 10px 5px rgba(0,0,0,0.4);
+    margin: 20px;
+}
+ul {
+    padding: 0;
+    margin: 0;
+}
+li {
+    list-style-type: none;
+}
+.kraj {
+    min-width: 300px;
+    text-align: center;
+    padding: 30px 0;    
+    background: rgba(219, 219, 219, 0.7);
+    margin-bottom: 20px;
+    color: #5D595D;
+}
+#countries {
+    margin: 0 auto;
+    width: 300px;
+}
+.name {
+    font-size: 24px;
+    font-weight: 700;
+}
+span {
+    font-weight: 700;
+}
+h1 {
+    margin: 40px 0 20px;
+    font-size: 48px;
+    color: #5D595D;
+}
+h2 {
+    font-size: 28px;
+    color: #5D595D;
+}
+input {
+    border: 2px solid #C5C5C5;
+    height: 35px;
+    width: 400px;
+    margin-bottom: 30px;
+    padding-left: 5px;
+    color: #5D595D
+}
+button {
+    border: 2px solid #C5C5C5;
+    background: #FFF;
+    height: 35px;
+    color: #5D595D;
+    cursor: pointer;
+}
